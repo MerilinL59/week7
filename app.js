@@ -19,7 +19,7 @@ launcherBtn.addEventListener("click", () => {
     const randomVillainWeapon = weapon[randomVillainWeaponIndex];
 
     heroSpan.innerHTML = `Hero ${randomHero} is armed with a/an ${randomHeroWeapon}.`;
-    villainSpan.innerHTML = `Hero ${randomVillain} is armed with a/an ${randomVillainWeapon}.`;
+    villainSpan.innerHTML = `Villain ${randomVillain} is armed with a/an ${randomVillainWeapon}.`;
 
     const heroStrike = randomHero.length + randomHeroWeapon.length;
     const villainStrike = randomVillain.length + randomVillainWeapon.length;
